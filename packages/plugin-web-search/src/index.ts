@@ -12,7 +12,7 @@ import { SearchResult } from "@elizaos/core";
 import { encodingForModel, TiktokenModel } from "js-tiktoken";
 
 const DEFAULT_MAX_WEB_SEARCH_TOKENS = 4000;
-const DEFAULT_MODEL_ENCODING = "gpt-3.5-turbo";
+const DEFAULT_MODEL_ENCODING = "gpt-4o-mini";
 
 function getTotalTokensFromString(
     str: string,
